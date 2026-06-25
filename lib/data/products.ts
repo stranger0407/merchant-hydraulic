@@ -1622,7 +1622,7 @@ export const products: Product[] = [
       { label: "Operating Pressure", value: "Up to 250 bar" },
       { label: "Flow Rate", value: "Variable" },
       { label: "Drive Type", value: "Variable frequency" },
-      label: "Efficiency", value: "Up to 50% energy savings" },
+      { label: "Efficiency", value: "Up to 50% energy savings" },
       { label: "Response", value: "Adaptive" }
     ],
     features: [
@@ -3311,8 +3311,8 @@ export const products: Product[] = [
 
   // ============= LIFT HYDRAULIC POWER PACKS (10 products) =============
   {
-    slug: "lift-hydraulic-power-pack-01",
-    title: "Lift Hydraulic Power Pack - Standard",
+    slug: "lift-hydraulic-power-pack-02",
+    name: "Lift Hydraulic Power Pack - Standard",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Standard lift hydraulic power pack for goods lift systems",
@@ -3359,7 +3359,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-02",
-    title: "Lift Hydraulic Power Pack - High Speed",
+    name: "Lift Hydraulic Power Pack - High Speed",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "High speed lift hydraulic power pack for rapid cycling",
@@ -3406,7 +3406,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-03",
-    title: "Lift Hydraulic Power Pack -Quiet Operation",
+    name: "Lift Hydraulic Power Pack -Quiet Operation",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Quiet operation lift hydraulic power pack for noise-sensitive areas",
@@ -3453,7 +3453,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-04",
-    title: "Lift Hydraulic Power Pack - Marine Grade",
+    name: "Lift Hydraulic Power Pack - Marine Grade",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Marine-grade lift hydraulic power pack for shipboard lifts",
@@ -3500,7 +3500,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-05",
-    title: "Lift Hydraulic Power Pack - Explosion Proof",
+    name: "Lift Hydraulic Power Pack - Explosion Proof",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Explosion-proof lift hydraulic power pack for hazardous locations",
@@ -3547,7 +3547,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-06",
-    title: "Lift Hydraulic Power Pack - Food Grade",
+    name: "Lift Hydraulic Power Pack - Food Grade",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Food-grade lift hydraulic power pack for food processing equipment",
@@ -3594,7 +3594,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-07",
-    title: "Lift Hydraulic Power Pack - Variable Speed",
+    name: "Lift Hydraulic Power Pack - Variable Speed",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Variable speed lift hydraulic power pack for energy efficiency",
@@ -3641,7 +3641,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-08",
-    title: "Lift Hydraulic Power Pack - Compact",
+    name: "Lift Hydraulic Power Pack - Compact",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Compact lift hydraulic power pack for limited space installations",
@@ -3688,7 +3688,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-09",
-    title: "Lift Hydraulic Power Pack - High Capacity",
+    name: "Lift Hydraulic Power Pack - High Capacity",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "High capacity lift hydraulic power pack for heavy loads",
@@ -3735,7 +3735,7 @@ export const products: Product[] = [
   },
   {
     slug: "lift-hydraulic-power-pack-10",
-    title: "Lift Hydraulic Power Pack - Custom Integration",
+    name: "Lift Hydraulic Power Pack - Custom Integration",
     category: "Lift Hydraulic Power Packs",
     categorySlug: "lift-hydraulic-power-packs",
     shortDescription: "Custom integrated lift hydraulic power pack for OEM applications",
